@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kobe Bryant Playoffs Shot Chart</title>
+    <link rel="stylesheet" type="text/css" href="exploration.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="nouislider.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="d3.legend.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="exploration.js"></script>
+  </head>
+  <body>
+    <script src="nouislider.min.js"></script>
+    <h2 id="graphtitle">Kobe Bryant Playoffs Shot Chart</h2>
+    <div id="chart">
+    </div>
+    <div id="filterarea">
+      <div id="rangenums">
+        <span>Minutes Remaining: </span>
+        <span id="slider-snap-value-upper">12</span>
+        <span> - </span>
+        <span id="slider-snap-value-lower">0</span>
+        <br />
+        <span class="smalltext">first number exclusive, last number inclusive</span>
+        <div id="range"></div>
+      </div>
+      <div id="rangenums2">
+        <span>Seconds Remaining: </span>
+        <span id="slider-snap-value-upper2">60</span>
+        <span> - </span>
+        <span id="slider-snap-value-lower2">0</span>
+        <br />
+        <span class="smalltext">first number inclusive, last number exclusive</span>
+        <div id="range2"></div>
+      </div>
+      <div id="rangenums3">
+        <span>Quarter(s)</span>
+        <span id="slider-snap-value-upper3">6</span>
+        <span> - </span>
+        <span id="slider-snap-value-lower3">1</span>
+        <br />
+        <span class="smalltext">first number exclusive, last number inclusive</span>
+        <div id="range3"></div>
+      </div>
+    </div>
+  </body>
+</html>

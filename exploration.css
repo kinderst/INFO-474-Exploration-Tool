@@ -1,0 +1,71 @@
+.shot-chart-court * {
+	fill:transparent;
+	stroke:#111;
+	stroke-width:1.5;
+}
+
+.shot-chart-court-ft-circle-bottom {
+	stroke-dasharray:1.5, 1;
+}
+
+.shot-chart-court-hoop,.shot-chart-court-backboard {
+	z-index:100;
+}
+
+.shot-chart-title {
+	font-size:15%;
+	text-transform:uppercase;
+}
+
+.chartsvg {
+	display: block;
+	margin: auto;
+}
+
+#graphtitle { 
+	text-align: center;
+}
+
+#filterarea {
+	text-align: center;
+}
+
+#range, #range2, #range3 {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rangenums, #rangenums2, #rangenums3 {
+	text-align: center;
+}
+
+#rangenums {
+	padding-left: 20px;
+	float: left;
+}
+
+#rangenums2 {
+	display: inline-block;
+    margin:0 auto;
+}
+
+#rangenums2, #rangenums3 {
+	padding-left: 60px;
+}
+
+#rangenums3 {
+	padding-right: 20px;
+	float: right;
+}
+
+.smalltext {
+	font-size: 10pt;
+}
+
+.legend rect {
+	fill:white;
+	stroke:black;
+	opacity:0.8;
+	width: 93px;
+}
